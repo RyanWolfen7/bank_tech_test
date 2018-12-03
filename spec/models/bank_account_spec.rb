@@ -17,4 +17,13 @@ describe BankAccount do
       expect(bank_account.balance).to eq(500)
     end
   end
+
+  describe '#Withdraw' do
+    it 'balance should change from 500 to 450' do
+      bank_account = BankAccount.new('Tony', 101911)
+      bank_account.deposit(500)
+      bank_account.withdraw(50)
+      expect(bank_account.balance).to eq(450)
+    end
+  end
 end
