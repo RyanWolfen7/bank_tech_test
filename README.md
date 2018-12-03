@@ -59,3 +59,6 @@
   * Created bank.rb and bank_spec.rb
     * Ran rspec
     * Wrote first test
+
+### First Test:
+![Alt text](resources/pictures/ExponentialNotes_Example.png "First Error")
