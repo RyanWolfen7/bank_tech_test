@@ -37,3 +37,12 @@
 ### SetUp:
   * I began by creating a git hub repository and cloning it to my local machine
   * I then write my tentative Readme and push to my repository
+  * I then brainstorm what my arch-objectives are and what I will need to solve them
+    * I determine that the problem could best be implemented with Ruby, as it has a many functions that will add to the ease of developing this project and has a lot of supporting gems that will help with TDD.
+    * Since I am using Ruby, I have decided to use SimpleCov, Rspec, and Rubocop as my initial gems.
+        * SimpleCov to make sure I have good test coverage
+        * Rspec as my testing framework
+        * Rubocop as a convention linting framework
+    * I then decide I will use a wire map diagram for my model
+    * Then I will create user stories
+  * I then install and init the Bundle gem
