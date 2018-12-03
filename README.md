@@ -62,28 +62,30 @@
 
 ### First Test:
 ##### Error 1:
-![Alt text](assets/images/first_error.png "First Error")
+![Alt text](assets/images/first_test/first_error.png "First Error")
 ##### Solution:
-![Alt text](assets/images/first_error_solution.png "First Error")
+![Alt text](assets/images/first_test/first_error_solution.png "First Error")
 ##### Error 2:
-![Alt text](assets/images/second_error.png "Second Error")
+![Alt text](assets/images/first_test/second_error.png "Second Error")
 ##### Solution:
-![Alt text](assets/images/second_error_solution.png "Second Error")
+![Alt text](assets/images/first_test/second_error_solution.png "Second Error")
 ##### Error 3:
-![Alt text](assets/images/third_error.png "Third Error")
+![Alt text](assets/images/first_test/third_error.png "Third Error")
 ##### Solution:
-![Alt text](assets/images/third_error_solution.png "Third Error")
+![Alt text](assets/images/first_test/third_error_solution.png "Third Error")
 ##### Error 4:
-![Alt text](assets/images/error_four.png "Fourth Error")
+![Alt text](assets/images/first_test/error_four.png "Fourth Error")
 Looks like I made a typo in my rspec. An easy fix; this is good news because it means its accessing my attr_reader
 ##### Error 5:
-![Alt text](assets/images/error_five.png "Fifth Error")
+![Alt text](assets/images/first_test/error_five.png "Fifth Error")
 ##### Solution:
-![Alt text](assets/images/solution_five.png "Fifth Error")
+![Alt text](assets/images/first_test/solution_five.png "Fifth Error")
 ##### Error 6:
-![Alt text](assets/images/error_six.png "Sixth Error")
+![Alt text](assets/images/first_test/error_six.png "Sixth Error")
 ##### Solution:
-![Alt text](assets/images/solution_six.png "Sixth Error")
+![Alt text](assets/images/first_test/solution_six.png "Sixth Error")
 
 #### Conclusion
-![Alt text](assets/images/first_test_pass.png "Yay")
+![Alt text](assets/images/first_test/first_test_pass.png "Yay")
+
+![Alt text](assets/images/first_test/simplecov_first.png "Yay")
