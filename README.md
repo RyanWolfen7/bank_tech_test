@@ -95,4 +95,4 @@ Looks like I made a typo in my rspec. An easy fix; this is good news because it 
       For the rest of the project I will be uploading a video to
       the readme. I will possible add a voice overlay to explain
       in further detail.
-![bank_first.mp4](assets/bank_first.mp4 "Yay")
+![bank_first.mp4](https://www.youtube.com/watch?v=bAgqDwj7vXE)
