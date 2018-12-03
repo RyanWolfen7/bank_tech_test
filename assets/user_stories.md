@@ -9,3 +9,8 @@ As an Account Holder
 So that I can save/store/hoard monies
 I would Like to deposit money into my account
 ````
+````
+As an Account Holder
+So that I can use my money
+I would like to withdraw a set amount
+````
