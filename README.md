@@ -61,4 +61,4 @@
     * Wrote first test
 
 ### First Test:
-![Alt text](resources/pictures/ExponentialNotes_Example.png "First Error")
+![Alt text](assets/images/first_error.png "First Error")
