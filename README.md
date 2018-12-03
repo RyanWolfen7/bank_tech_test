@@ -3,7 +3,9 @@
 
 ### Overview:
       This tech test is a demonstration for Objective Oriented
-      design (OOD) and Test Driven Development (TDD).
+      design (OOD) and Test Driven Development (TDD). The goal
+      is not to complete a simple challenge in a fast timeframe,
+      but to meticulously outline my OOD and TDD process. 
 
 ## Specification
 ------
@@ -50,3 +52,7 @@
     * Insert the SimpleCov start in spec_helper
     * Ran Rspec
   * Created my Lib and assets folder
+    * created a domain_model folder and user_stories.md
+  * Wrote the first user story
+  * Created the domain_model.md
+    * wrote in the first user story
