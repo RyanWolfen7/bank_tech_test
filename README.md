@@ -62,36 +62,37 @@
 
 ### First Test:
 ##### Error 1:
-![Alt text](assets/images/first_test/first_error.png "First Error")
+![Error 1](assets/images/first_test/first_error.png "First Error")
 ##### Solution:
-![Alt text](assets/images/first_test/first_error_solution.png "First Error")
+![Solution 1](assets/images/first_test/first_error_solution.png "First Error")
 ##### Error 2:
-![Alt text](assets/images/first_test/second_error.png "Second Error")
+![Error 2](assets/images/first_test/second_error.png "Second Error")
 ##### Solution:
-![Alt text](assets/images/first_test/second_error_solution.png "Second Error")
+![Solution 2](assets/images/first_test/second_error_solution.png "Second Error")
 ##### Error 3:
-![Alt text](assets/images/first_test/third_error.png "Third Error")
+![Error 3](assets/images/first_test/third_error.png "Third Error")
 ##### Solution:
-![Alt text](assets/images/first_test/third_error_solution.png "Third Error")
+![Solution 3](assets/images/first_test/third_error_solution.png "Third Error")
 ##### Error 4:
-![Alt text](assets/images/first_test/error_four.png "Fourth Error")
+![Error 4](assets/images/first_test/error_four.png "Fourth Error")
 Looks like I made a typo in my rspec. An easy fix; this is good news because it means its accessing my attr_reader
 ##### Error 5:
-![Alt text](assets/images/first_test/error_five.png "Fifth Error")
+![Error 5](assets/images/first_test/error_five.png "Fifth Error")
 ##### Solution:
-![Alt text](assets/images/first_test/solution_five.png "Fifth Error")
+![Solution 5](assets/images/first_test/solution_five.png "Fifth Error")
 ##### Error 6:
-![Alt text](assets/images/first_test/error_six.png "Sixth Error")
+![error 6](assets/images/first_test/error_six.png "Sixth Error")
 ##### Solution:
-![Alt text](assets/images/first_test/solution_six.png "Sixth Error")
+![Solution 6](assets/images/first_test/solution_six.png "Sixth Error")
 
 #### Conclusion
-![Alt text](assets/images/first_test/first_test_pass.png "Yay")
+![Rspec](assets/images/first_test/first_test_pass.png "Yay")
 
-![Alt text](assets/images/first_test/simplecov_first.png "Yay")
+![SimpleCov](assets/images/first_test/simplecov_first.png "Yay")
 
 ### The Rest Of The Project
 
       For the rest of the project I will be uploading a video to
       the readme. I will possible add a voice overlay to explain
       in further detail.
+![bank_first.mp4](assets/bank_first.mp4 "Yay")
