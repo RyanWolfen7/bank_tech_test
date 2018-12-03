@@ -46,3 +46,7 @@
     * I then decide I will use a wire map diagram for my model
     * Then I will create user stories
   * I then install and init the Bundle gem
+  * I then init Rspec
+    * Insert the SimpleCov start in spec_helper
+    * Ran Rspec
+  * Created my Lib and assets folder
