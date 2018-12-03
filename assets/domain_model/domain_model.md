@@ -1,3 +1,3 @@
 | Class | Method |
 |-------|:------:|
-| Bank  | Balance|
+| Bank_Account  | Balance|
