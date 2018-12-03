@@ -5,9 +5,9 @@
         1,
         null,
         1,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         0,
         0,
         0,
@@ -16,9 +16,11 @@
         null
       ],
       "/Users/san-di/makersAcademy/bank_tech_test/lib/bank_account.rb": [
+        1,
+        null,
         null
       ]
     },
-    "timestamp": 1543839207
+    "timestamp": 1543840086
   }
 }
