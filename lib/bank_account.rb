@@ -1,3 +1,4 @@
+# This is the BankAccount class that handles users funds
 class BankAccount
   DEFAULT_BALANCE = 0
 
@@ -16,5 +17,4 @@ class BankAccount
   def withdraw(amount)
     @balance -= amount
   end
-
 end
