@@ -89,3 +89,9 @@ Looks like I made a typo in my rspec. An easy fix; this is good news because it 
 ![Alt text](assets/images/first_test/first_test_pass.png "Yay")
 
 ![Alt text](assets/images/first_test/simplecov_first.png "Yay")
+
+### The Rest Of The Project
+
+      For the rest of the project I will be uploading a video to
+      the readme. I will possible add a voice overlay to explain
+      in further detail.
