@@ -61,4 +61,10 @@
     * Wrote first test
 
 ### First Test:
+##### Error 1:
 ![Alt text](assets/images/first_error.png "First Error")
+##### Solution:
+![Alt text](assets/images/first_error_solution.png "First Error")
+##### Error 2:
+![Alt text](assets/images/second_error.png "Second Error")
+##### Solution:
