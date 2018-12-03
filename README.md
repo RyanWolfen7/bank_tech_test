@@ -79,3 +79,8 @@ Looks like I made a typo in my rspec. An easy fix; this is good news because it 
 ##### Error 5:
 ![Alt text](assets/images/error_five.png "Fifth Error")
 ##### Solution:
+![Alt text](assets/images/solution_five.png "Fifth Error")
+##### Error 6:
+![Alt text](assets/images/error_six.png "Sixth Error")
+##### Solution:
+![Alt text](assets/images/solution_six.png "Sixth Error")
