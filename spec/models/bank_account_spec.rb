@@ -9,4 +9,12 @@ describe BankAccount do
       expect(bank_account.balance).to eq(0)
     end
   end
+
+  describe '#Deposit' do
+    it 'balance should change from 0 to 500' do
+      bank_account = BankAccount.new('Tony', 101911)
+      bank_account.deposit(500)
+      expect(bank_account.balance).to eq(500)
+    end
+  end
 end
