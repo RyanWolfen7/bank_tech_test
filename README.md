@@ -73,3 +73,6 @@
 ![Alt text](assets/images/third_error.png "Third Error")
 ##### Solution:
 ![Alt text](assets/images/third_error_solution.png "Third Error")
+##### Error 4:
+![Alt text](assets/images/error_four.png "Fourth Error")
+Looks like I made a typo in my rspec. An easy fix; this is good news because it means its accessing my attr_reader
