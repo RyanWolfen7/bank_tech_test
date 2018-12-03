@@ -69,5 +69,7 @@
 ![Alt text](assets/images/second_error.png "Second Error")
 ##### Solution:
 ![Alt text](assets/images/second_error_solution.png "Second Error")
-##### Error :
+##### Error 3:
 ![Alt text](assets/images/third_error.png "Third Error")
+##### Solution:
+![Alt text](assets/images/third_error_solution.png "Third Error")
