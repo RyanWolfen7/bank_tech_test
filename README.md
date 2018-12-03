@@ -68,3 +68,4 @@
 ##### Error 2:
 ![Alt text](assets/images/second_error.png "Second Error")
 ##### Solution:
+![Alt text](assets/images/second_error_solution.png "Second Error")
