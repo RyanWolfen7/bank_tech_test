@@ -76,3 +76,6 @@
 ##### Error 4:
 ![Alt text](assets/images/error_four.png "Fourth Error")
 Looks like I made a typo in my rspec. An easy fix; this is good news because it means its accessing my attr_reader
+##### Error 5:
+![Alt text](assets/images/error_five.png "Fifth Error")
+##### Solution:
