@@ -20,8 +20,8 @@ describe BankAccount do
     it 'should have an array of time, deposit, and balance' do
       bank_account = BankAccount.new('Tony', 101_911)
       bank_account.deposit(500)
-      expect(bank_account.statement[1][0]).to eq(Time.now)
-      expect(bank_account.statement[1[1]]).to eq('')
+      expect(bank_account.statement[1][0]).to eq(Time.now.strftime '%d/%m/%Y')
+      expect(bank_account.statement[1][1]).to eq('')
       expect(bank_account.statement[1][2]).to eq(500)
       expect(bank_account.statement[1][3]).to eq(500)
     end
