@@ -44,5 +44,15 @@ describe BankAccount do
       bank_account.withdraw(50)
       expect(bank_account.balance).to eq(450)
     end
+
+    it 'should have a credit on the statement' do
+      bank_account = BankAccount.new('Tony', 101_911)
+      bank_account.deposit(500)
+      bank_account.withdraw(50)
+      expect(bank_account.statement[2][0]).to eq(Time.now.strftime('%d/%m/%Y'))
+      expect(bank_account.statement[2][1]).to eq(50)
+      expect(bank_account.statement[2][2]).to eq('')
+      expect(bank_account.statement[2][3]).to eq(450)
+    end
   end
 end
