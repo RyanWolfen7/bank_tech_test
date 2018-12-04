@@ -2,16 +2,18 @@
 class BankAccount
   DEFAULT_BALANCE = 0
 
-  attr_reader :owner, :account_num, :balance
+  attr_reader :owner, :account_num, :balance, :statement
 
   def initialize(name, account_num)
     @owner = name
     @account_num = account_num
     @balance = DEFAULT_BALANCE
+    @statement = [['Time', 'Credit', 'Debit', 'Balance']]
   end
 
   def deposit(amount)
     @balance += amount
+    @statement << [Time.now.strftime('%d/%m/%Y'), '', amount, @balance]
   end
 
   def withdraw(amount)
