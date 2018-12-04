@@ -1,7 +1,6 @@
 # This is the BankAccount class that handles users funds
 class BankAccount
   DEFAULT_BALANCE = 0.00
-  STATEMENT_TITLE_ARR = %w[Time Credit Debit Balance].freeze
 
   attr_reader :owner, :account_num, :balance, :statement
 
@@ -9,7 +8,7 @@ class BankAccount
     @owner = name
     @account_num = account_num
     @balance = DEFAULT_BALANCE
-    @statement = [STATEMENT_TITLE_ARR]
+    @statement = Statement.new
   end
 
   def deposit(amount)
@@ -22,19 +21,13 @@ class BankAccount
     credit_statement(amount)
   end
 
-  def print_statement
-    @statement.each do |item|
-      puts "#{item[0]} || #{item[1]} || #{item[2]} || #{item[3]}"
-    end
-  end
-
   private
 
   def debit_statement(amount)
-    @statement << [Time.now.strftime('%d/%m/%Y'), '', amount, @balance]
+    @statement.log << [Time.now.strftime('%d/%m/%Y'), '', amount, @balance]
   end
 
   def credit_statement(amount)
-    @statement << [Time.now.strftime('%d/%m/%Y'), amount, '', @balance]
+    @statement.log << [Time.now.strftime('%d/%m/%Y'), amount, '', @balance]
   end
 end
