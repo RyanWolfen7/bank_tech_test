@@ -55,4 +55,14 @@ describe BankAccount do
       expect(bank_account.statement[2][3]).to eq(450)
     end
   end
+
+  describe '#print_statement' do
+    it 'should print out a statement correctly' do
+      bank_account = BankAccount.new('Tony', 101_911)
+      bank_account.deposit(500)
+      bank_account.withdraw(50)
+      time = Time.now.strftime('%d/%m/%Y')
+      expect(bank_account.print_statement).to eq(bank_account.statement)
+    end
+  end
 end
