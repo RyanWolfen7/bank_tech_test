@@ -14,16 +14,22 @@ class BankAccount
 
   def deposit(amount)
     @balance += amount
-    deposit_statement(amount)
+    debit_statement(amount)
   end
 
   def withdraw(amount)
     @balance -= amount
+    credit_statement(amount)
   end
 
   private
 
-  def deposit_statement(amount)
+  def debit_statement(amount)
     @statement << [Time.now.strftime('%d/%m/%Y'), '', amount, @balance]
   end
+
+  def credit_statement(amount)
+    @statement << [Time.now.strftime('%d/%m/%Y'), amount, '', @balance]
+  end
+  
 end
