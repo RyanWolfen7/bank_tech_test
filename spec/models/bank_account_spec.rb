@@ -20,20 +20,20 @@ describe BankAccount do
     it 'should have an array of time, deposit, and balance' do
       bank_account = BankAccount.new('Tony', 101_911)
       bank_account.deposit(500)
-      expect(bank_account.statement[1][0]).to eq(Time.now.strftime('%d/%m/%Y'))
-      expect(bank_account.statement[1][1]).to eq('')
-      expect(bank_account.statement[1][2]).to eq(500)
-      expect(bank_account.statement[1][3]).to eq(500)
+      expect(bank_account.statement.log[1][0]).to eq(Time.now.strftime('%d/%m/%Y'))
+      expect(bank_account.statement.log[1][1]).to eq('')
+      expect(bank_account.statement.log[1][2]).to eq(500)
+      expect(bank_account.statement.log[1][3]).to eq(500)
     end
 
     it 'should have the correct balance in the second statement' do
       bank_account = BankAccount.new('Tony', 101_911)
       bank_account.deposit(500)
       bank_account.deposit(500)
-      expect(bank_account.statement[2][0]).to eq(Time.now.strftime('%d/%m/%Y'))
-      expect(bank_account.statement[2][1]).to eq('')
-      expect(bank_account.statement[2][2]).to eq(500)
-      expect(bank_account.statement[2][3]).to eq(1000)
+      expect(bank_account.statement.log[2][0]).to eq(Time.now.strftime('%d/%m/%Y'))
+      expect(bank_account.statement.log[2][1]).to eq('')
+      expect(bank_account.statement.log[2][2]).to eq(500)
+      expect(bank_account.statement.log[2][3]).to eq(1000)
     end
   end
 
@@ -49,20 +49,10 @@ describe BankAccount do
       bank_account = BankAccount.new('Tony', 101_911)
       bank_account.deposit(500)
       bank_account.withdraw(50)
-      expect(bank_account.statement[2][0]).to eq(Time.now.strftime('%d/%m/%Y'))
-      expect(bank_account.statement[2][1]).to eq(50)
-      expect(bank_account.statement[2][2]).to eq('')
-      expect(bank_account.statement[2][3]).to eq(450)
-    end
-  end
-
-  describe '#print_statement' do
-    it 'should print out a statement correctly' do
-      bank_account = BankAccount.new('Tony', 101_911)
-      bank_account.deposit(500)
-      bank_account.withdraw(50)
-      time = Time.now.strftime('%d/%m/%Y')
-      expect(bank_account.print_statement).to eq(bank_account.statement)
+      expect(bank_account.statement.log[2][0]).to eq(Time.now.strftime('%d/%m/%Y'))
+      expect(bank_account.statement.log[2][1]).to eq(50)
+      expect(bank_account.statement.log[2][2]).to eq('')
+      expect(bank_account.statement.log[2][3]).to eq(450)
     end
   end
 end
