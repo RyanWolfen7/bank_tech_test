@@ -6,7 +6,7 @@
       design (OOD) and Test Driven Development (TDD). The goal
       is not to complete a simple challenge in a fast timeframe,
       but to meticulously outline my OOD and TDD process.
-      
+
 ### How to run:
    * Clone this repository to your local machine
       ```
@@ -21,6 +21,35 @@
       $rspec
       ```
    * Copy the Path to simple cov file and open in your browser
+   * Open IRB
+      ```
+      $ irb
+      ```
+   * Require files
+      ```
+      require './lib/bank_account.rb'
+      require './lib/statement.rb'
+      ```
+   * Create new BankAccount
+    ```
+    my_account = BankAccount.new('NAME HERE', 764747
+    ```
+   * Deposit monies
+   ```
+   my_account.deposit(1000000)
+   ```
+   * Withdraw some
+   ```
+   my_account.withdraw(300000)
+   ```
+   * Print statement
+   ```
+   my_account.statement.print_statement
+   ```
+### Example:
+
+  ![SimpleCov](assets/images/example.png "Yay")
+
 
 ## Specification
 ------
@@ -111,3 +140,9 @@ Looks like I made a typo in my rspec. An easy fix; this is good news because it 
       the readme. I will possible add a voice overlay to explain
       in further detail.
 [Video Here](https://www.youtube.com/watch?v=bAgqDwj7vXE)
+
+## Running Program
+
+![SimpleCov](assets/images/simplcov_final.png "Yay")
+
+![Rspec](assets/images/rspec_final.png "Yay")
