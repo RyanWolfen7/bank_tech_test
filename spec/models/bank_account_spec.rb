@@ -16,6 +16,15 @@ describe BankAccount do
       bank_account.deposit(500)
       expect(bank_account.balance).to eq(500)
     end
+
+    it 'should have an array of time, deposit, and balance' do
+      bank_account = BankAccount.new('Tony', 101_911)
+      bank_account.deposit(500)
+      expect(bank_account.statement[1][0]).to eq(Time.now)
+      expect(bank_account.statement[1[1]]).to eq('')
+      expect(bank_account.statement[1][2]).to eq(500)
+      expect(bank_account.statement[1][3]).to eq(500)
+    end
   end
 
   describe '#Withdraw' do
