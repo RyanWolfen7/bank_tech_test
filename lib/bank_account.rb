@@ -31,5 +31,4 @@ class BankAccount
   def credit_statement(amount)
     @statement << [Time.now.strftime('%d/%m/%Y'), amount, '', @balance]
   end
-  
 end
