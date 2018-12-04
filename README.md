@@ -6,6 +6,21 @@
       design (OOD) and Test Driven Development (TDD). The goal
       is not to complete a simple challenge in a fast timeframe,
       but to meticulously outline my OOD and TDD process.
+      
+### How to run:
+   * Clone this repository to your local machine
+      ```
+      $git clone https://github.com/RyanWolfen7/bank_tech_test.git
+      ```
+   * Bundle install gems
+      ```
+      $ bundle install
+      ```
+   * Run rspec
+      ```
+      $rspec
+      ```
+   * Copy the Path to simple cov file and open in your browser
 
 ## Specification
 ------
