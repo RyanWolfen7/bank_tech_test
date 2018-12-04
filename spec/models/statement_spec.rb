@@ -10,8 +10,8 @@ describe Statement do
     it 'should hold a 2d array' do
       statement = Statement.new
       statement.log << ['june', '', 500, 500]
-      expect(statement.log).to eq([%w[Time Credit Debit Balance],
-                                   ['june', '', 500, 500]])
+      var = [%w[Time Credit Debit Balance], ['june', '', 500, 500]]
+      expect(statement.log).to eq(var)
     end
   end
   describe '#print_statement' do
