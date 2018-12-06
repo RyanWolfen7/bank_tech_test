@@ -24,14 +24,14 @@ class BankAccount
   private
 
   def debit_statement(amount)
-    @statement.update(
-      [Time.now.strftime('%d/%m/%Y'), '', amount, @balance]
-    ) if @statement.is_a?(Statement)
+    return if !@statement.is_a?(Statement)
+
+    @statement.update([Time.now.strftime('%d/%m/%Y'), '', amount, @balance])
   end
 
   def credit_statement(amount)
-    @statement.update(
-      [Time.now.strftime('%d/%m/%Y'), amount, '', @balance]
-    ) if @statement.is_a?(Statement)
+    return if !@statement.is_a?(Statement)
+
+    @statement.update([Time.now.strftime('%d/%m/%Y'), amount, '', @balance])
   end
 end
