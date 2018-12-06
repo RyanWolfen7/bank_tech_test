@@ -10,7 +10,7 @@ class Statement
 
   def print_statement
     puts STATEMENT_TITLE_ARR
-    @log.reverse.each do |item|
+    @log.reverse_each do |item|
       puts "#{item[0]} || #{item[1]} || #{item[2]} || #{item[3]}"
     end
   end
