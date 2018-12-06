@@ -5,12 +5,17 @@ class Statement
   attr_reader :log
 
   def initialize
-    @log = [STATEMENT_TITLE_ARR]
+    @log = []
   end
 
   def print_statement
-    @log.each do |item|
+    puts STATEMENT_TITLE_ARR
+    @log.reverse.each do |item|
       puts "#{item[0]} || #{item[1]} || #{item[2]} || #{item[3]}"
     end
+  end
+
+  def update(array)
+    @log << array
   end
 end
