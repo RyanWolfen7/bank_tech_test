@@ -31,21 +31,21 @@
       require './lib/statement.rb'
       ```
    * Create new BankAccount
-    ```
-    my_account = BankAccount.new('NAME HERE', 764747
-    ```
+       ```
+       my_account = BankAccount.new('NAME HERE', 764747
+      ```
    * Deposit monies
-   ```
-   my_account.deposit(1000000)
-   ```
+       ```
+       my_account.deposit(1000000)
+       ```
    * Withdraw some
-   ```
-   my_account.withdraw(300000)
-   ```
+       ```
+       my_account.withdraw(300000)
+       ```
    * Print statement
-   ```
-   my_account.statement.print_statement
-   ```
+        ```
+        my_account.statement.print_statement
+       ```
 ### Example:
 
   ![SimpleCov](assets/images/example.png "Yay")
