@@ -20,7 +20,7 @@ describe Statement do
       statement.log << statement = Statement.new
       statement.log << ['june', '', 500, 500]
       statement.log << ['june', 50, '', 450]
-      expect(statement.print_statement).to eq(statement.log.reverse)
+      expect(statement.print_statement).to eq(statement.log)
     end
   end
 end
